@@ -15,6 +15,9 @@ class NodeSIPServer {
         this.userinfo = {};
         //会话
         this.dialogs = {};
+        //add by wangmianzhe
+        this.id = config.GB28181.sipServer.serial;
+        this.domain = config.GB28181.sipServer.realm;
     }
 
     run() {
